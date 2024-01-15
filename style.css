@@ -48,7 +48,8 @@ body, html {
 }
 
 .konten img{
-    width: 120px;
+    padding: 20px;
+    width: 100%;
     border-radius: 50%;
     float: left;
     margin: auto 0;
@@ -56,7 +57,7 @@ body, html {
     border-left:white; */
 }
 
-.column {
+.kolom {
     /* float: left; */
     margin: auto 0;
     padding: 20px;
@@ -74,4 +75,20 @@ body, html {
 .buttonmod a{
     text-decoration: none;
     color: aliceblue;
+}
+
+@media (max-width : 992px) {
+    .kolom{
+        border: none;
+    }
+
+    .buttonmod {
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .img-fluid {
+        display: none;
+    }
 }
