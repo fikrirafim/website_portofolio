@@ -52,3 +52,44 @@ img{
 .modicon{
     height: 100%;
 }
+
+#modh5{
+    margin-top: 10px;
+}
+
+.modcontainer{
+    height: 7px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.skillbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 7px;
+}
+
+.skillbar-uiux{
+    border-radius: 5px;
+    height: 7px;
+    width: 90%;
+    background-color: orange;
+}
+
+.skillbar-python{
+    margin-top: 87px;
+    border-radius: 5px;
+    height: 7px;
+    width: 70%;
+    background-color: orange;
+}
+
+.skillbar-webdev{
+    margin-top: 87px;
+    border-radius: 5px;
+    height: 7px;
+    width: 80%;
+    background-color: orange;
+}
